@@ -1,0 +1,24 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app-BBYlPrYE.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-D-sv12UV.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/style.css",
+    "src": "",
+    "isEntry": true
+  },
+  "public/build/js/main.js": {
+    "file": "js/main.js",
+    "name": "main",
+    "src": "public/build/js/main.js",
+    "isEntry": true
+  }
+}

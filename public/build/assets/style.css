@@ -1,0 +1,226 @@
+.modal {
+    z-index: 1055 !important;
+}
+
+form .avatar{
+    width: 55px;
+    margin-bottom: 15px;
+}
+
+.navbar .container-avatar,
+.pub_image .container-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 900px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.navbar .container-avatar img,
+.pub_image .container-avatar img{
+    height: 100%;
+}
+
+.pub_image{
+    margin-bottom: 25px;
+}
+
+.pub_image .container-avatar{
+    float: left;
+    margin-right: 15px;
+}
+
+.pub_image .data-user{
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.pub_image .data-user a{
+    text-decoration: none;
+    color: #444;
+}
+
+.pub_image .nickname{
+    color: gray;
+}
+
+.image-container{
+    width: 100%;
+/*    height: 100%;*/
+/*    max-height: 400px;*/
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.pub_image .card-body{
+    padding: 0px;
+}
+
+.pub_image .description{
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.pub_image .btn-comments{
+    background-color: #e7e7e7;
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.likes{
+    float: left;
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 5px;
+}
+
+.likes img{
+    width: 25px;
+}
+
+.pub_image_detail .comments{
+    padding: 1px 20px 1px 20px;
+}
+
+.pub_image_detail .comments .cmmnts{
+    float: right;
+    background-color: #e7e7e7;
+    background-size: 500px;
+    border-radius: 12px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pub_image_detail .btn-comments{
+    background-color: #e7e7e7;
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.number_likes{
+    color: gray;
+    font-size: 13px;
+}
+
+.profile-user{
+    height: 200px;
+    margin-bottom: 35px;
+}
+
+.profile-user .container-avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    overflow: hidden;
+    float: left;
+}
+
+.profile-user .container-avatar img{
+    height: 100%;
+}
+
+.profile-user .user-info{
+/*    float: left;*/
+    padding-left: 210px;
+    padding-top: 30px;
+}
+
+.profile-user .user-info h2{
+    color: gray;
+}
+
+.data-user-detail{
+    float: left;
+    font-weight: bold;
+    line-height: 35px;
+    text-decoration: none;
+    color: #444;
+}
+
+.data-user-detail a{
+    text-decoration: none;
+    color: #444;
+}
+
+.dropdown-detail{
+    float: right;
+}
+
+.dropdown-detail{
+    font-weight: bold;
+}
+
+a.dropdown-item {
+    display: inline-block;
+}
+
+.actions{
+    float: right;
+    padding-right: 10px;
+}
+
+.btn-actions{
+    background-color: #e7e7e7;
+    border-radius: 12px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.btn-search{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.contenedor-cuadricula{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.cuadricula-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.fotos{
+    flex: 1 1 calc(33.333% - 2px);  /*Ajusta el -4px para coincidir con el gap */
+    position: relative;
+    max-width: calc(33.333% - 2px);  /*Asegura que cada imagen no ocupe más del 33.333% */
+}
+
+.fotos .pub_image{
+    margin-bottom: 2px;
+}
+
+.fotos .image-container {
+    width: 100%;
+    padding-top: 100%; /* Mantiene la relación de aspecto cuadrada */
+    position: relative;
+    overflow: hidden;
+}
+
+.fotos .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
